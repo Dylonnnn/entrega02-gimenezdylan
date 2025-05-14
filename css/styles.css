@@ -59,10 +59,6 @@ button a{
     font-size: 1.5rem;
 }
 
-.main-planes h2{
-    font-size: 400%;
-}
-
 .main-planes h4{
     margin-top: 1.125rem;
 }
@@ -84,8 +80,12 @@ button a{
         height: 100%;
         margin: 0;
     }
+}
 
-
+h2{
+    font-family: "Knewave", system-ui;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .container-grid{
