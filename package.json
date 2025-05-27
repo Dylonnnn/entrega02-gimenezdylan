@@ -1,0 +1,19 @@
+{
+  "name": "preentrega02-gimenezdylan",
+  "version": "1.0.0",
+  "description": "AÑADI UNA TIPOGRAFIA QUE ME HABIA OLVIDADO EN TODOS LOS H2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylonnnn/entrega02-gimenezdylan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylonnnn/entrega02-gimenezdylan/issues"
+  },
+  "homepage": "https://github.com/Dylonnnn/entrega02-gimenezdylan#readme"
+}

@@ -1,0 +1,34 @@
+.card-mio {
+    width: 25.5625rem;
+    max-width: 40%;
+    min-height: 70vh;
+    border: solid map-get($colores , "blanco" ) 0.1875rem;
+    border-radius: 0.5886rem;
+    display: flex;
+    flex-direction: column;
+    background-color: map-get($colores , "principal" );
+
+    &:hover {
+    transform: scale(1.1);
+    transition: all 400ms ease;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card-mio {
+        flex-wrap: nowrap;
+        width: 40%;
+}
+    main{
+    min-height: 145vh;
+}
+}
+
+@media (max-width: 768px) {
+    .card-mio {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+}

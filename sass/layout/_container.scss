@@ -1,0 +1,19 @@
+.container-grid {
+    display: grid;
+    grid-template-rows: 700px 700px;
+    margin: 0;
+    color: map-get($colores,"blanco" );
+    background-color: map-get($colores , "principal" );
+}
+
+.container-sesion {
+    @include contenedor-grande();
+
+    color: map-get($colores, "blanco");
+}
+
+.container-registrarse {
+    @include contenedor-grande();
+
+    color: map-get($colores, "blanco");
+}

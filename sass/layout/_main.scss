@@ -1,0 +1,8 @@
+.main-index{
+    background-color: map-get($colores ,"principal" );
+    color: map-get($colores , "blanco" );
+}
+main{
+    min-height: 100vh;
+    background-color: map-get($colores ,"principal" );
+}

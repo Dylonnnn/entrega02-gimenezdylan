@@ -1,0 +1,14 @@
+.enviar {
+    @include boton();
+}
+
+.container-registrarse{
+    background-color: map-get($colores , "principal" );
+    div{
+        background-color: map-get($colores , "principal" );
+    }
+}
+
+.container-registrarse .div-sesion form {
+    gap: 1.875rem;
+}

@@ -1,0 +1,17 @@
+.nav-mio {
+    display: flex;
+    justify-items: end;
+    gap: 0.9375rem;
+}
+
+.fondo-header {
+    background-color: map-get($colores, "sesion");
+
+    p {
+    color: map-get($colores, "blanco");
+    }
+}
+
+.nav-item a {
+    color: map-get($colores, "blanco");
+}
