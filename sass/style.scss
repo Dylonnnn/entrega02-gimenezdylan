@@ -7,12 +7,10 @@
 
 @import "./layout/container";
 @import "./layout/header";
-@import "./layout/nosotros";
 @import "./layout/planes";
 @import "./layout/registrarse";
 @import "./layout/sesion";
 @import "./layout/main";
-
 
 @import "./components/navbar";
 @import "./components/-cards.scss";
@@ -20,9 +18,3 @@
 @import "./components/elegirnos";
 @import "./components/imagenes";
 
-body{
-    background-color: #2c4a8b;
-    p,h2,h3,h4,li,a,label,.color-mio{
-        color: map-get($colores , "blanco" );
-    }
-}

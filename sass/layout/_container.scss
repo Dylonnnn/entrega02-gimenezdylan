@@ -1,10 +1,12 @@
 .container-grid {
     display: grid;
-    grid-template-rows: 700px 700px;
+    grid-template-rows: auto auto;
     margin: 0;
+    gap: 5rem;
     color: map-get($colores,"blanco" );
     background-color: map-get($colores , "principal" );
 }
+
 
 .container-sesion {
     @include contenedor-grande();

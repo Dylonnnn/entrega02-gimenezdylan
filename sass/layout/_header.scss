@@ -1,7 +1,7 @@
 .fondo-header{
     background-color: map-get($colores,"principal" );
-    height: 100%;
     width: 100%;
+    min-height: 100%;
     p,a{
         color:map-get($colores , "blanco" )
     }
